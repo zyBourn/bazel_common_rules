@@ -1,9 +1,9 @@
 branches:
   only:
-    - master
+  - master
 
 install:
-  appveyor DownloadFile https://github.com/bazelbuild/bazel/releases/download/0.14.0/bazel-0.14.0-windows-x86_64.exe -FileName bazel.exe
+  - appveyor DownloadFile https://github.com/bazelbuild/bazel/releases/download/0.14.0/bazel-0.14.0-windows-x86_64.exe -FileName bazel.exe
 
 build_script:
-  %APPVEYOR_BUILD_FOLDER%\bazel.exe --batch build
+  - %APPVEYOR_BUILD_FOLDER%\bazel.exe --batch build
