@@ -1,6 +1,7 @@
 # Common Rules for Google Bazel
 
-[![Build Status](https://travis-ci.org/magoko/bazel_common_rules.svg?branch=master)](https://travis-ci.org/magoko/bazel_common_rules)
+[![TravisCI Build Status](https://travis-ci.org/magoko/bazel_common_rules.svg?branch=master)](https://travis-ci.org/magoko/bazel_common_rules)
+[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/shh2ad6obiskfmbm?svg=true)](https://ci.appveyor.com/project/klarkdots/bazel-common-rules)
 
 ## API DOCS
 Generating documentation using [skydoc]
