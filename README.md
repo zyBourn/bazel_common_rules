@@ -34,7 +34,7 @@ skydoc_repositories()
 git_repository(
     name = "org_magoko_bazel_common_rules",
     remote = "https://github.com/magoko/bazel_common_rules.git",
-    commit = "44d173a2a875474b5570417cbe9772c6154acada", # always use the latest commit
+    commit = "03127410628b356dd91332045abbd24989bf5e10", # always use the latest commit
 )
 ```
 
