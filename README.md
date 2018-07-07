@@ -1,5 +1,7 @@
 # Common Rules for Google Bazel
 
+[![Build Status](https://travis-ci.org/magoko/bazel_common_rules.svg?branch=master)](https://travis-ci.org/magoko/bazel_common_rules)
+
 ## API DOCS
 Generating documentation using [skydoc]
 But, skydoc don't support windows, See this [Windows Support].
